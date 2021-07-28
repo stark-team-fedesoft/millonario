@@ -1,2 +1,2 @@
-Juego Quien quiere ser millonario :star2:
+¿QUIÉN QUIERE SER MILLONARIO?  :star2:
 ===
