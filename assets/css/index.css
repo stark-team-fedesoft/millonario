@@ -1,10 +1,56 @@
-body {
+/* body {
     background: rgb(42,101,115);
     background: linear-gradient(0deg, rgba(42,101,115,1) 0%, rgba(21,17,87,1) 70%);
-}
-.caja {
+} */
+/* .caja {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 130px;
     padding: 1em;
     margin: 5px;
+} */
+
+body{
+    background: url("../img/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    color: white;  
+    font-size: 1.2em;
+   
 }
+.contenido{
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+}
+.preguntas{
+    width: 100vw;
+    height: 10vh;
+    margin-left: 15vw;
+    margin-right:15vw;
+}
+
+.ayb{
+    width: 100vw;
+    height: 6vh;
+    margin-left: 10vw;
+    margin-right:10vw;
+   
+}
+.cyd{
+    width: 100vw;
+    height: 6vh;
+    margin-left: 10vw;
+    margin-right:10vw;
+   
+}
+.vacia{
+    width: 100vw;
+    height: 4vh;
+}
+
+.borde-caja{
+    border-radius: 20px;
+}
+
