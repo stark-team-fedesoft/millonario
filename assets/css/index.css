@@ -1,0 +1,30 @@
+body {
+    background: rgb(42,101,115);
+    background: linear-gradient(0deg, rgba(42,101,115,1) 0%, rgba(21,17,87,1) 70%);
+}
+.caja {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 130px;
+    padding: 1em;
+    margin: 5px;
+}
+
+.botones{
+ width:700px;
+ height: 50px;
+}
+.elegida{
+    width:700px;
+    height: 50px;
+    background:rgb(255, 102, 0);
+}
+.acertada{
+    width:700px;
+    height: 50px;
+    background:rgb(0, 185, 9);
+}
+.fallada{
+    width:700px;
+    height: 50px;
+    background:rgb(197, 0, 0);
+}
