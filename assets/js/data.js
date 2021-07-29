@@ -26,6 +26,32 @@ window.dataQues = {
             correctOp : 'B',
             access    : false,
         },
+        {
+            id        : 10,
+            question  : 'pregunta 10',
+            options   : [
+                { id: 'A', answer : 'op1' },
+                { id: 'B', answer : 'op2' },
+                { id: 'C', answer : 'op3' },
+                { id: 'D', answer : 'op4' },
+            ],
+            value     : 500000.00,
+            correctOp : 'B',
+            access    : true,
+        },
+        {
+            id        : 11,
+            question  : 'pregunta 11',
+            options   : [
+                { id: 'A', answer : 'op1' },
+                { id: 'B', answer : 'op2' },
+                { id: 'C', answer : 'op3' },
+                { id: 'D', answer : 'op4' },
+            ],
+            value     : 500000.00,
+            correctOp : 'C',
+            access    : false,
+        },
     ]
 }
 // si no hay preguntas almacenadas en localStorage, guardarlas.
