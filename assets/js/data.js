@@ -28,11 +28,13 @@ window.dataQues = {
         },
     ]
 }
+// si no hay preguntas almacenadas en localStorage, guardarlas.
+const isQuestionsSaved = localStorage.getItem('questions');
+if( !isQuestionsSaved ) {
+    const strQuestions = JSON.stringify( window.dataQues );
+    localStorage.setItem( 'questions', strQuestions );
+}
 
-const questions = window.dataQues.questions;
-
-const q2 = questions.find( q => {
-    return q.id === 2; 
-});
-
-console.log(q2);
+// recuperar de localStorage y convertir a JSON
+// const strQuestions = localStorage.getItem('questions');
+// const questions = JSON.parse( strQuestions );
