@@ -92,6 +92,8 @@ var MillionaireModel = function(data) {
 	 				$("#game").fadeOut('slow', function() {
 	 					$("#game-over").html(localStorage.getItem('name') + 'Ganaste!');
 	 					$("#game-over").fadeIn('slow');
+                         localStorage.removeItem('name');
+                         localStorage.removeItem('challenge');
 	 				});
  				} else {
  					self.level(self.level() + 1);
@@ -115,6 +117,8 @@ var MillionaireModel = function(data) {
  					$("#game-over").html('Perdio!');
  					$("#game-over").fadeIn('slow');
  					self.transitioning = false;
+                    localStorage.removeItem('name');
+                    localStorage.removeItem('challenge');
  				});
  			});
  		});
