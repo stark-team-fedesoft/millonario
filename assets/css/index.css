@@ -1,56 +1,51 @@
-/* body {
-    background: rgb(42,101,115);
-    background: linear-gradient(0deg, rgba(42,101,115,1) 0%, rgba(21,17,87,1) 70%);
-} */
-/* .caja {
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 130px;
-    padding: 1em;
-    margin: 5px;
-} */
-
-body{
-    background: url("../img/fondo.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-    color: white;  
-    font-size: 1.2em;
-   
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(41, 41, 41);
+    color: #FFF;
 }
-.contenido{
-    width: 100vw;
-    height: 40vh;
+
+h1 {
+    text-align: center;
+}
+
+div.game-options {
+    border: 2px solid white;
+    height: 80vh;
+}
+
+div.game-options div {
+    top: 25%;
+    left: 25%;
     position: absolute;
-    bottom: 0;
-}
-.preguntas{
-    width: 100vw;
-    height: 10vh;
-    margin-left: 15vw;
-    margin-right:15vw;
+    width: 50%;
 }
 
-.ayb{
-    width: 100vw;
-    height: 6vh;
-    margin-left: 10vw;
-    margin-right:10vw;
-   
-}
-.cyd{
-    width: 100vw;
-    height: 6vh;
-    margin-left: 10vw;
-    margin-right:10vw;
-   
-}
-.vacia{
-    width: 100vw;
-    height: 4vh;
+label {
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.borde-caja{
-    border-radius: 20px;
+input, select {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(25, 2, 51);
+    font-size: 1rem;
+    color: #FFF;
+    border: none;
 }
 
+button:disabled {
+    background-color: #CCC;
+}
