@@ -140,3 +140,7 @@ audio {
 	font-size: 2rem;
 	cursor: pointer;
 }
+
+div#game {
+    margin-bottom: 10rem;
+}
