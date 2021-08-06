@@ -36,7 +36,8 @@ var MillionaireModel = function(data) {
  	this.usedAudience = new ko.observable(false);
      
  	self.getQuestionText = function() {
- 		return self.questions[self.level() - 1].question;
+        let string = self.questions[self.level() - 1].question;
+		return decodeURIComponent( escape( string ) );
  	}
      
  	self.getAnswerText = function(index) { 
@@ -284,8 +285,9 @@ $(document).ready(function() {
             },
             {
                 "questions" : [
+                    // 1
                     {
-                        "question" : "Instruccion que permite almacenar un valor en una variable.",
+                        "question" : "Instrucción que permite almacenar un valor en una variable.",
                         "content" : [
                             "Leer",
                             "Asignar",
@@ -294,6 +296,7 @@ $(document).ready(function() {
                         ],
                         "correct" : 1
                     },
+                    // 2
                     {
                         "question" : "Un compilador es:",
                         "content" : [
@@ -304,6 +307,7 @@ $(document).ready(function() {
                         ],
                         "correct" : 0
                     },
+                    // 3
                     {
                         "question" : "Las etapas que deben seguirse en la construccion de un programa son:",
                         "content" : [
@@ -314,6 +318,7 @@ $(document).ready(function() {
                         ],
                         "correct" : 3
                     },
+                    // 4
                     {
                         "question" : "El diagrama de flujo es la representación grafica de un algoritmo, donde se visualiza el flujo de los datos y las operaciones (procesos) de un programa. Se caracteriza por:",
                         "content" : [
@@ -324,6 +329,7 @@ $(document).ready(function() {
                         ],
                         "correct" : 2
                     },
+                    // 5
                     {
                         "question" : "En caso de presentarse una falla de sintaxis, en el proceso de programacion, se procede a:",
                         "content" : [
@@ -333,6 +339,116 @@ $(document).ready(function() {
                             "Examinar el código del programa para identificar en cuál instrucción se encuentra la falla, corregir la falla."
                         ],
                         "correct" : 1
+                    },
+                    // 6
+                    {
+                        "question" : "La palabra \"alert\" en el lenguage Javascript, se utiliza cuando:",
+                        "content" : [
+                            "Se desea mostrar un mensaje al usuario",
+                            "Se desea que el usuario ingrese un dato",
+                            "Se desea advertir al usuario del proceso que va a realizar",
+                            "Se desea extender un cuadro de alerta con un mensaje ya establecio."
+                        ],
+                        "correct" : 3
+                    },
+                    // 7
+                    {
+                        "question" : "Cuál es la forma de sumar un valor en javascript",
+                        "content" : [
+                            "valor = valor + 1",
+                            "valor += 1",
+                            "A y B son correctas",
+                            "No se puede sumar en Javascript"
+                        ],
+                        "correct" : 2
+                    },
+                    // 8
+                    {
+                        "question" : "Una variable acumulador se utiliza para:",
+                        "content" : [
+                            "Contar el número de veces que se repite un ciclo",
+                            "Guardar el resultado de una operacion",
+                            "Guardar datos del programa",
+                            "Contar los errores del programa"
+                        ],
+                        "correct" : 0
+                    },
+                    // 9
+                    {
+                        "question" : "Para almacenar un Byte, usted necesita ____ interruptores electrónicos.",
+                        "content" : [
+                            "1",
+                            "2",
+                            "4",
+                            "8"
+                        ],
+                        "correct" : 3
+                    },
+                    // 10
+                    {
+                        "question" : "De lo siguiente ¿que puede clasificarse como dato?.",
+                        "content" : [
+                            "Voz",
+                            "Video",
+                            "Audio",
+                            "Todas las anteriores"
+                        ],
+                        "correct" : 3
+                    },
+                    // 11
+                    {
+                        "question" : "La minima unidad de almacenamiento en un sistema de computo se denomina...",
+                        "content" : [
+                            "Word",
+                            "Bit",
+                            "Ascii",
+                            "Byte"
+                        ],
+                        "correct" : 3
+                    },
+                    // 12
+                    {
+                        "question" : "La información en los sistemas telegráficos se comunicaba por código...",
+                        "content" : [
+                            "Código Ascci",
+                            "Código Morse",
+                            "Bit",
+                            "Hertz"
+                        ],
+                        "correct" : 1
+                    },
+                    // 13
+                    {
+                        "question" : "La representación gráfica de un algorítmo se denomina...",
+                        "content" : [
+                            "Diagrama de Flujo",
+                            "Diagrama de Venn",
+                            "Pseudocódigo",
+                            "Prueba de escritorio"
+                        ],
+                        "correct" : 0
+                    },
+                    // 14
+                    {
+                        "question" : "¿Qué es una tabla de la verdad?",
+                        "content" : [
+                            "Es una tabla que muestra el valor de verdad de una proposició compuesta",
+                            "Es un elemento para crear tablas en la sintaxis de HTML",
+                            "Es una palabre reservada de JavaScript",
+                            "Ninguna de las anteriores"
+                        ],
+                        "correct" : 0
+                    },
+                    // 15
+                    {
+                        "question" : "¿Qué es un arreglo de datos?",
+                        "content" : [
+                            "Es un archivo de música",
+                            "Sirve para comprimir objetos en formato ZIP",
+                            "Es un vector ó matriz donde se almacena conjuntamente una serie de elementos del mismo tipo",
+                            "Es un comando de linux usado para listar archivos en la consola"
+                        ],
+                        "correct" : 2
                     },
                 ]
             },
