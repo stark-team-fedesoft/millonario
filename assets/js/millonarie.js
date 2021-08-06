@@ -104,7 +104,7 @@ var MillionaireModel = function(data) {
  				self.money($(".active").data('amt'));
  				if(self.level() + 1 > 15) {
 	 				$("#game").fadeOut('slow', function() {
-	 					$("#game-over").html('Ganaste!');
+	 					$("#game-over").html(localStorage.getItem('name') + 'Ganaste!');
 	 					$("#game-over").fadeIn('slow');
 	 				});
  				} else {
@@ -126,7 +126,7 @@ var MillionaireModel = function(data) {
  			startSound('wrongsound', false);
  			$("#" + elm).css('background', 'red').slideDown('slow', function() {
  				$("#game").fadeOut('slow', function() {
- 					$("#game-over").html('Perdió!');
+ 					$("#game-over").html('Perdio!');
  					$("#game-over").fadeIn('slow');
  					self.transitioning = false;
  				});
@@ -304,155 +304,55 @@ $(document).ready(function() {
                 {
                     "questions" : [
                         {
-                            "question" : "In the U.S., if it's not Daylight Saving Time, it's what?",
+                            "question" : "Instruccion que permite almacenar un valor en una variable.",
                             "content" : [
-                                "Borrowed time",
-                                "Overtime",
-                                "Standard time",
-                                "Party time"
-                            ],
-                            "correct" : 2
-                        },
-                        {
-                            "question" : "Which part of the body are you most likely to \"stub\"?",
-                            "content" : [
-                                "Toe",
-                                "Knee",
-                                "Elbow",
-                                "Brain"
-                            ],
-                            "correct" : 0
-                        },
-                        {
-                            "question" : "Which country is largest by area?",
-                            "content" : [
-                                "UK",
-                                "USA",
-                                "Russia",
-                                "China"
-                            ],
-                            "correct" : 2
-                        },
-                        {
-                            "question" : "What does the \"F\" stand for in FBI?",
-                            "content" : [
-                                "Foreign",
-                                "Federal",
-                                "Flappy",
-                                "Face"
+                                "Leer",
+                                "Asignar",
+                                "Escribir ",
+                                "Si entonces"
                             ],
                             "correct" : 1
                         },
                         {
-                            "question" : "The US declared war on which country after the bombing of Pearl Harbor?",
+                            "question" : "Un compilador es:",
                             "content" : [
-                                "Japan",
-                                "Russia",
-                                "Germany",
-                                "China"
+                                "El que permite traducir un programa escrito en un lenguaje de programación a lenguaje maquina",
+                                "Un lenguaje de alto nivel",
+                                "Una instruccion",
+                                "Una directiva de pre procesamiento"
                             ],
                             "correct" : 0
                         },
                         {
-                            "correct": 0,
-                            "content": [
-                                "Letter of Credit (L/C)",
-                                "laissezfaire",
-                                "inflation",
-                                "None of the above"
+                            "question" : "Las etapas que deben seguirse en la construccion de un programa son:",
+                            "content" : [
+                                "Analisis, algoritmo, diagrama de flujo, seudocodigo",
+                                "Analisis, seudocodigo, prueba de escritorio, implementacion (codificar en un lenguaje de programacion).",
+                                "Analisis, algoritmo, prueba de escritorio, implementacion (codificar en un lenguaje de programacion), prueba, instalación y uso del aplicativo.",
+                                "Analisis, algoritmo, diagrama de flujo, seudocodigo, prueba de escritorio, implementacion (codificar en un lenguaje de programacion), prueba, instalacion y uso del aplicativo."
                             ],
-                            "question": "A guarantee to an exporter that the importer of his goods will pay immediately for the goods ordered by him, is known as"
+                            "correct" : 3
                         },
                         {
-                            "correct": 3,
-                            "content": [
-                                "Visible light",
-                                "Infrared radiation",
-                                "X-rays and gamma rays",
-                                "Ultraviolet radiation"
+                            "question" : "El diagrama de flujo es la representación grafica de un algoritmo, donde se visualiza el flujo de los datos y las operaciones (procesos) de un programa. Se caracteriza por:",
+                            "content" : [
+                                "Que debe ser construido por herramientas muy tecnicas",
+                                "Utilizar formas geometricas elementales",
+                                "Su sencillez, claridad, uso de normas y simbolos, flexibilidad.",
+                                "Requerir un buen análisis del problema"
                             ],
-                            "question": "The ozone layer restricts"
+                            "correct" : 2
                         },
                         {
-                            "correct": 0,
-                            "content": [
-                                "the first Buddhist pilgrim of China to visit India during the reign of Chandragupta Vikramaditya",
-                                "the discoverer of Puerto Rico and Jamaica",
-                                "the first Buddhist pilgrim of India to visit China",
-                                "None of the above"
+                            "question" : "En caso de presentarse una falla de sintaxis, en el proceso de programacion, se procede a:",
+                            "content" : [
+                                "Ignorar los errores y ejecutar el programa",
+                                "Comprender el mensaje de error que reporta el ambiente de programacion, examinar el codigo del programa para identificar en cual instruccion se encuentra la falla, corregir la falla, probar el programa de nuevo.",
+                                "Examinar el codigo del programa para identificar en cual instruccion se encuentra la falla, Comprender el mensaje de error que reporta el ambiente de programacion.",
+                                "Examinar el código del programa para identificar en cuál instrucción se encuentra la falla, corregir la falla."
                             ],
-                            "question": "Fa-Hien was"
+                            "correct" : 1
                         },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "Harvard",
-                                "University of Washington",
-                                "Yale",
-                                "Oxford"
-                            ],
-                            "question": "What was the first university in the United States"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "The amount of energy it takes to move an electron through a potential difference of 1 volt",
-                                "The number of volts it takes to move an electon a meter",
-                                "The number of electrons it takes to kill a human being",
-                                "The flux of current through a surface parallel to a capacitor"
-                            ],
-                            "question": "An electron volt is"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "14th November",
-                                "11th December",
-                                "15th October",
-                                "1st July"
-                            ],
-                            "question": "When is the World's Diabetes Day?"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "Kelvin",
-                                "Celsius",
-                                "Centigrade",
-                                "Fahrenheit"
-                            ],
-                            "question": "What is the S.I. unit of temperature?"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "July 21, 1969",
-                                "July 21, 1970",
-                                "July 21, 1963",
-                                "July 21, 1972"
-                            ],
-                            "question": "When did US astronauts Neil Armstrong and Edwin E. Aldrin land on the moon?"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "the density of milk increases",
-                                "the density of milk decreases",
-                                "the density of milk remains unchanged",
-                                "it becomes more viscous"
-                            ],
-                            "question": "When cream is separated from milk"
-                        },
-                        {
-                            "correct": 0,
-                            "content": [
-                                "1999",
-                                "1989",
-                                "1979",
-                                "1969"
-                            ],
-                            "question": "When did 19 NATO members and 11 'Partners for Peace' join hands for peace plan for Kosovo Crisis?"
-                        }
                     ]
                 },
                 {
