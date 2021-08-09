@@ -1,46 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-body {
-    background: rgb(42,101,115);
-    background: linear-gradient(0deg, rgba(42,101,115,1) 0%, rgba(21,17,87,1) 70%);
-}
-.caja {
-=======
-/* body {
-    background: rgb(42,101,115);
-    background: linear-gradient(0deg, rgba(42,101,115,1) 0%, rgba(21,17,87,1) 70%);
-} */
-/* .caja {
->>>>>>> 33573609d11b842acb02d94226a3ab79c4db84cd
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 130px;
-    padding: 1em;
-    margin: 5px;
-<<<<<<< HEAD
-}
-
-.botones{
- width:700px;
- height: 50px;
-}
-.elegida{
-    width:700px;
-    height: 50px;
-    background:rgb(255, 102, 0);
-}
-.acertada{
-    width:700px;
-    height: 50px;
-    background:rgb(0, 185, 9);
-}
-.fallada{
-    width:700px;
-    height: 50px;
-    background:rgb(197, 0, 0);
-}
-=======
-} */
-=======
 body {
     margin: 0;
     padding: 0;
@@ -48,7 +5,6 @@ body {
     background-color: rgb(41, 41, 41);
     color: #FFF;
 }
->>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
 
 h1 {
     text-align: center;
@@ -90,10 +46,6 @@ button {
     border: none;
 }
 
-<<<<<<< HEAD
->>>>>>> 33573609d11b842acb02d94226a3ab79c4db84cd
-=======
 button:disabled {
     background-color: #CCC;
 }
->>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
