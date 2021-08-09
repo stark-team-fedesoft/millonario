@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
 <<<<<<< HEAD
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -58,41 +59,46 @@
 =======
 
     <div class="container-fluid">
+=======
+    <title>¿Quién quiere ser Millonario?</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <h1>¿Quién quiere ser Millonario?</h1>
+    <div class="game-options">
+>>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
         <div>
-            <button id="buttonEmpezar" class="btn btn-primary">empieza el juego</button>
-            <button id="buttonComfirmar" class="btn btn-primary">confirmar respuesta</button>
-        </div>
-        <div class="row contenido">
-            <div class="row preguntas ">
-                <div id="preguntas" class="col text-center ml-5 fondoCaja borde-caja"> Preguntas  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veniam aliquam recusandae sapiente alias numquam, excepturi deleniti?</div>
-             </div>
-             <div class="row vacia">
-
-            </div>
-            <div class="row ayb">
-                <div id="resA" class="col-5 borde-caja fondoCaja">a .respuesta a </div>
-                <div class="col-2"></div>
-                <div id="resB" class="col-5 borde-caja fondoCaja">b. respuesta b</div>
-             </div>
-             <div class="row vacia">
-
-             </div>
-            <div class="row cyd ">
-                <div id="resC" class="col-5 fondoCaja borde-caja">c. respuesta c</div>
-                <div class="col-2 "></div>
-                <div id="resD" class="col-5 fondoCaja borde-caja">d. respuesta d</div>
-             </div>
-        </div>
-  
+            <form action="#" method="POST" id="game-form">
+                <label for="name">Ingrese su nombre:</label><br/>
+                <input id="name" name="name" style="width: 100%;" autofocus required/>
+                <label for="challenge">Selecciona el reto:</label><br/>
+                <select name="challenge" id="challenge" style="width: 100%;" required>
+                    <option value="0" selected disabled> - Seleccione un reto - </option>
+                    <option value="1"> HTML- CSS </option>
+                    <option value="2"> Lógica y algoritmia </option>
+                    <option value="3"> Javascript </option>
+                    <option value="4"> Bootstrap </option>
+                    <option value="5"> Repositorios </option>
+                    <option value="6"> Srum </option>
+                </select>
     
-</div>
+                <button type="submit" id="submit-button" disabled>
+                    ¡Jugar!
+                </button>
+            </form>
 
+        </div>
+    </div>
 
+<<<<<<< HEAD
     </section>
 
     <script src="assets/js/data.js"></script> <!-- carga de preguntas en localstorage SOLO ésta pagina -->
 >>>>>>> 33573609d11b842acb02d94226a3ab79c4db84cd
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./assets/js/index.js"></script>
+=======
+    <script src="assets/js/index.js"></script>
+>>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
 </body>
 </html>

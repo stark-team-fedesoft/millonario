@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	</head>
+	<body>
+		<!-- HTML5 Audio tags - weakly supported, works in Chrome(tested) -->
+		<audio id="background" src='assets/sound/sound_background.mp3'></audio>
+		<audio id="rightsound" src='assets/sound/sound_right.mp3'></audio>
+		<audio id="wrongsound" src='assets/sound/sound_wrong.mp3'></audio>
+
+		<!-- Before the game begins problem set selection -->
+		<div id="pre-start">
+			<!-- <select id="problem-set"></select> -->
+			<button id="start">Empezar</button>
+		</div>
+
+		<!-- Shown when the player wins/loses -->
+		<div id="game-over">
+		</div>
+
+		<!-- The actual game markup -->
+		<div id="game">
+			<div id="top">
+				<img src="https://avatars.githubusercontent.com/u/87490837?s=200&v=4" id="logo" />
+				<ul id="levels">
+					<li id="price-15">$1,000,000</li>
+					<li id="price-14">$500,000</li>
+					<li id="price-13">$250,000</li>
+					<li id="price-12">$125,000</li>
+					<li id="price-11">$64,000</li>
+					<li id="price-10">$32,000</li>
+					<li id="price-9">$16,000</li>
+					<li id="price-8">$8,000</li>
+					<li id="price-7">$4,000</li>
+					<li id="price-6">$2,000</li>
+					<li id="price-5">$1,000</li>
+					<li id="price-4">$500</li>
+					<li id="price-3">$300</li>
+					<li id="price-2">$200</li>
+					<li id="price-1">$100</li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+
+			<div id="question-box">
+				<span class="big-text">Q:</span>
+				<span class="content" id="question"></span>
+			</div>
+
+			<div id="answer-box">
+				<div id="answer-one" class="answer">
+					<span class="big-text">A.</span><span></span>
+				</div>
+
+				<div id="answer-two" class="answer">
+					<span class="big-text">B.</span><span></span>
+				</div>
+
+				<div id="answer-three" class="answer">
+					<span class="big-text">C.</span><span></span>
+				</div>
+
+				<div id="answer-four" class="answer">
+					<span class="big-text">D.</span><span></span>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="assets/js/millonarie.js"></script>
+	</body>
+</html>

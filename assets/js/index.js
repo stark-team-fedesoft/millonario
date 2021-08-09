@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 let solucion = ["B", "A", "C", "B", "B", "C"];
 =======
 let solucion = ["B","A","C","B","B","C"];
@@ -229,77 +230,25 @@ const fn1 = () =>{
 }
 const fn2 = () =>{
     respuesta= "B";
-}
-const fn3 = () =>{
-    respuesta= "C";
-}
-const fn4 = () =>{
-    respuesta= "D";
-}
-const fn5 = () =>{
-    switch (pregunta) {
-        case 1:
-            if(respuesta == solucion[0]){
-                texto.innerHTML="Le has acertado mi bro!";
-                pregunta = 2;
-                texto2.innerHTML="pregunta 2";
-                lasPreguntas();
-            }
-            else{
-                texto.innerHTML="no le acertaste papa";
-                alert("haz perdido");
-                pregunta = 1;
-                lasPreguntas();
-            }
-            break;
-        case 2:
-            if(respuesta == solucion[1]){
-                texto.innerHTML="Le has acertado mi bro x2!";
-                pregunta = 3;
-                texto2.innerHTML="pregunta 3";
-                lasPreguntas();
-            }
-            else{
-                texto.innerHTML="no le acertaste papa";
-                alert("haz perdido");
-                pregunta = 1;
-                lasPreguntas();
-            }
-            break;
-        case 3:
-            if(respuesta == solucion[2]){
-                texto.innerHTML="Le has acertado mi bro x3!";
-                pregunta = 4;
-                texto2.innerHTML="pregunta 4";
-                lasPreguntas();
-            }
-            else{
-                texto.innerHTML="no le acertaste papa";
-                alert("haz perdido");
-                pregunta = 1;
-                lasPreguntas();
-            }
-            break;
-        case 4:
-            if(respuesta == solucion[3]){
-                texto.innerHTML="Le has acertado mi bro x4!";
-                pregunta = 5;
-                texto2.innerHTML="pregunta 4";
-                lasPreguntas();
-            }
-            else{
-                texto.innerHTML="no le acertaste papa";
-                alert("haz perdido");
-                pregunta = 1;
-                lasPreguntas();
-            }
-            break;
-        default:
-            break;
+=======
+const name_        = document.getElementById('name');
+const challenge    = document.getElementById('challenge');
+const submitButton = document.getElementById('submit-button');
+const gameForm     = document.getElementById('game-form');
 
-    }
+const activateButton = () => {
+    if( name_.value && challenge.value ) submitButton.removeAttribute('disabled');
+    else submitButton.setAttribute('disabled', true);
+>>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
 }
 
+const setDataToGame = () => {
+    localStorage.setItem('name', name_.value);
+    localStorage.setItem('challenge', challenge.value);
+    window.location.href = 'game.html';
+}
+
+<<<<<<< HEAD
 const lasPreguntas = () =>{
     if (pregunta==1){
         enunciado.innerHTML="Cuando un carro frena en seco, el sonido que se suele producir es";
@@ -367,3 +316,11 @@ btnEnviar.onclick = function () {
     fn5();
 }
 >>>>>>> 33573609d11b842acb02d94226a3ab79c4db84cd
+=======
+name_.onchange     = function() { activateButton(); };
+challenge.onchange = function() { activateButton(); };
+gameForm.onsubmit  = function(e) {
+    e.preventDefault();
+    setDataToGame();
+};
+>>>>>>> 50b48066779db72e9ffaf905078e4fc90f90be4c
