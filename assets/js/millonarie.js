@@ -515,6 +515,110 @@ const data = {
                     "correct" : 0
                 }
             ]
+        },
+
+        {
+            "questions" : [
+                // 1
+                {
+                    "question" : "Que es Scrum",
+                    "content" : [
+                        "Es una metodologia agil",
+                        "Es un framework",
+                        "Es una metodologia tradicional",
+                        "Es una api"
+                    ],
+                    "correct" : 0
+                },
+                // 2
+                {
+                    "question" : "Quien es el Product Owner",
+                    "content" : [
+                        "Persona encargada del gestionar el proyecto",
+                        "Persona que representa las partes internas y externas del proyecto",
+                        "Líder del equipo de desarrollo",
+                        "Dueño del producto final"
+                    ],
+                    "correct" : 1
+                },
+                // 3
+                {
+                    "question" : "Quien es el Scrum Master",
+                    "content" : [
+                        "Propietario de la empresa",
+                        "Líder del equipo de desarrollo",
+                        "Líder que aplica la metodología scrum",
+                        "Responsable de entregar el proyecto"
+                    ],
+                    "correct" : 2
+                },
+                // 4
+                {
+                    "question" : "Que es el Sprint",
+                    "content" : [
+                        "Un equipo de trabajo",
+                        "Lider de proyecto",
+                        "Una reunion",
+                        "Requerimientos del proyeto"
+                    ],
+                    "correct" : 3
+                },
+                // 5
+                {
+                    "question" : "Que es el product blacklog",
+                    "content" : [
+                        "Planificacion de las tareas",
+                        "lista de requerimientos iniciales",
+                        "Lider del proyecto",
+                        "Dueño del proyecto"
+                    ],
+                    "correct" : 1
+                },
+                // 6
+                {
+                    "question" : "Que es el Daily Scrum",
+                    "content" : [
+                        "Es una Reunion de 1 hora",
+                        "Es una  Reunion de 4 hora",
+                        "Es una Reunion cada semana",
+                        "Es una Reunion Diaria de 15 minutos"
+                    ],
+                    "correct" : 3
+                },
+                // 7
+                {
+                    "question" : "Que es el spring review",
+                    "content" : [
+                        "sirve para inspeccionar el incremento y adaptarlo al producto backlog",
+                        "es una reunion ",
+                        "es el incremento del producto",
+                        "es una tarea"
+                    ],
+                    "correct" : 0
+                },
+                // 8
+                {
+                    "question" : "que es el team developer",
+                    "content" : [
+                        "encargados del desarrollo del proyecto",
+                        "encargados de hablar con el cliente",
+                        "encargados realizar entregas al cliente",
+                        "Todo los integrantes de la metodoliga scrum"
+                    ],
+                    "correct" : 0
+                },
+                // 9
+                {
+                    "question" : "Sprint retrospective",
+                    "content" : [
+                        "Es una reunion de 15 minutos",
+                        "entrega final del proyecto",
+                        "Oportunidada de mejora del equipo",
+                        "Es la suma de todos los incrementos del proyecto"
+                    ],
+                    "correct" : 2
+                }
+            ]
         }
     ]
 }
