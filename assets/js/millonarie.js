@@ -559,7 +559,8 @@ const setGame = ( dataGame=[], level=0 ) => {
 
 const setQuestion = ( q='' ) => {
     let string = q;
-    question.innerHTML = decodeURIComponent( escape( string ) );
+    // question.innerHTML = decodeURIComponent( escape( string ) );
+    question.innerHTML =  string;
 }
 
 const setAnswers = ( answers=[], level)  => {
@@ -568,28 +569,32 @@ const setAnswers = ( answers=[], level)  => {
     answer1.setAttribute('answer', 0);
     const spans1 = answer1.getElementsByTagName('span');
     const span1 = spans1[1];
-    span1.innerHTML = decodeURIComponent( escape( answers[0] ));
+    // span1.innerHTML = decodeURIComponent( escape( answers[0] ));
+    span1.innerHTML = answers[0];
 
     // answer 2
     answer2.setAttribute('level', level);
     answer2.setAttribute('answer', 1);
     const spans2 = answer2.getElementsByTagName('span');
     const span2 = spans2[1];
-    span2.innerHTML = decodeURIComponent( escape( answers[1] ));
+    // span2.innerHTML = decodeURIComponent( escape( answers[1] ));
+    span2.innerHTML = answers[1];
 
     // answer 3
     answer3.setAttribute('level', level);
     answer3.setAttribute('answer', 2);
     const spans3 = answer3.getElementsByTagName('span');
     const span3 = spans3[1];
-    span3.innerHTML = decodeURIComponent( escape(  answers[2] ));
+    // span3.innerHTML = decodeURIComponent( escape(  answers[2] ));
+    span3.innerHTML = answers[2];
 
     // answer 4
     answer4.setAttribute('level', level);
     answer4.setAttribute('answer', 3);
     const spans4 = answer4.getElementsByTagName('span');
     const span4 = spans4[1];
-    span4.innerHTML = decodeURIComponent( escape( answers[3] ));
+    // span4.innerHTML = decodeURIComponent( escape( answers[3] ));
+    span4.innerHTML = answers[3];
 }
 
 const evaluateAnswer = ( answer ) => {
