@@ -3,155 +3,104 @@ const data = {
     "games" : [
         {
             "questions" : [
+                // 1
                 {
-                    "question" : "In what children's game are participants chased by someone designated \"It\"?",
+                    "question" : " Cuál de las siguientes etiquetas NO es de bloque block",
                     "content" : [
-                        "Tag",
-                        "Simon Says",
-                        "Charades",
-                        "Hopscotch"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "question" : "On a radio, stations are changed by using what control?",
-                    "content" : [
-                        "Tuning",
-                        "Volume",
-                        "Bass",
-                        "Treble"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "question" : "Which material is most dense?",
-                    "content" : [
-                        "Silver",
-                        "Styrofoam",
-                        "Butter",
-                        "Gold"
+                        "hr",
+                        "p",
+                        "h1 ",
+                        "span"
                     ],
                     "correct" : 3
                 },
+                // 2
                 {
-                    "question" : "Which state in the United States is largest by area?",
+                    "question" : "La etiqueta strong da máxima importancia al texto que encierra y por defecto se representa:",
                     "content" : [
-                        "Alaska",
-                        "California",
-                        "Texas",
-                        "Hawaii"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "question" : "What is Aurora Borealis commonly known as?",
-                    "content" : [
-                        "Fairy Dust",
-                        "Northern Lights",
-                        "Book of ages",
-                        "a Game of Thrones main character"
+                        "de color rojo red",
+                        "como negrita",
+                        "como versalita",
+                        "como cursiva"
                     ],
                     "correct" : 1
                 },
+                // 3
                 {
-                    "correct": 3,
-                    "content": [
-                        "developed the telescope",
-                        "discovered four satellites of Jupiter",
-                        "discovered that the movement of pendulum produces a regular time measurement",
-                        "All of the above"
+                    "question" : "como se cierra una etiqueta",
+                    "content" : [
+                        "/H1",
+                        "$H1",
+                        "&H1",
+                        "*H1"
                     ],
-                    "question": "Galileo was an Italian astronomer who"
+                    "correct" : 0
                 },
+                // 4
                 {
-                    "correct": 3,
-                    "content": [
-                        "the infrared light kills bacteria in the body",
-                        "resistance power increases",
-                        "the pigment cells in the skin get stimulated and produce a healthy tan",
-                        "the ultraviolet rays convert skin oil into Vitamin D"
+                    "question" : "Que etiqueta se usa para crear un botton",
+                    "content" : [
+                        "P",
+                        "H3",
+                        "body",
+                        "button"
                     ],
-                    "question": "Exposure to sunlight helps a person improve his health because"
+                    "correct" : 3
                 },
+                // 5
                 {
-                    "correct": 0,
-                    "content": [
-                        "a club or a local sport association for remarkable achievements",
-                        "amateur athlete, not necessarily an Olympian",
-                        "National Olympic Committee for outstanding work",
-                        "None of the above"
+                    "question" : "Cual es la estructura del html",
+                    "content" : [
+                        "html,head,body",
+                        "head,body",
+                        "body,head",
+                        "head,body,html"
                     ],
-                    "question": "Sir Thomas Fearnley Cup is awarded to"
+                    "correct" : 0
                 },
+                // 6
                 {
-                    "correct": 1,
-                    "content": [
-                        "1968",
-                        "1929",
-                        "1901",
-                        "1965"
+                    "question" : "Cual de las siguientes etiquetas realizan un salto de linea",
+                    "content" : [
+                        "br",
+                        "p",
+                        "td",
+                        "body"
                     ],
-                    "question": "Oscar Awards were instituted in"
+                    "correct" : 0
                 },
+                // 7
                 {
-                    "correct": 2,
-                    "content": [
-                        "1998",
-                        "1989",
-                        "1979",
-                        "1800"
+                    "question" : "para que sirve la etiqueta h1",
+                    "content" : [
+                        "Para escribir un parrafo",
+                        "Para escribir un titulo",
+                        "Para insertar una imagen",
+                        "Para escribir texto justificado"
                     ],
-                    "question": "When did Margaret Thatcher became the first female Prime Minister of Britain?"
+                    "correct" : 1
                 },
+                // 8
                 {
-                    "correct": 2,
-                    "content": [
-                        "15th April",
-                        "12th December",
-                        "1st May",
-                        "1st August"
+                    "question" : "Para insertar ina imagen se usa la etiqueta",
+                    "content" : [
+                        "h1",
+                        "div",
+                        "img",
+                        "title"
                     ],
-                    "question": "When is the International Workers' Day?"
+                    "correct" : 2
                 },
+                // 9
                 {
-                    "correct": 2,
-                    "content": [
-                        "1962",
-                        "1963",
-                        "1964",
-                        "1965"
+                    "question" : "Para insertar una imagen se usa la etiqueta",
+                    "content" : [
+                        "h1",
+                        "div",
+                        "img",
+                        "title"
                     ],
-                    "question": "When did China test their first atomic device?"
-                },
-                {
-                    "correct": 3,
-                    "content": [
-                        "1904",
-                        "1905",
-                        "1908",
-                        "1909"
-                    ],
-                    "question": "When did Commander Robert Peary discover the North Pole?"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "819/sq. km",
-                        "602/sq. km",
-                        "415/sq. km",
-                        "500/sq. km"
-                    ],
-                    "question": "What is the population density of Kerala?"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "4 km",
-                        "25 km",
-                        "500 m to 9 km",
-                        "150 km"
-                    ],
-                    "question": "What is the range of missile 'Akash'?"
+                    "correct" : 3
                 }
             ]
         },
@@ -255,534 +204,315 @@ const data = {
                         "8"
                     ],
                     "correct" : 3
-                },
-                // 10
-                {
-                    "question" : "De lo siguiente ¿que puede clasificarse como dato?.",
-                    "content" : [
-                        "Voz",
-                        "Video",
-                        "Audio",
-                        "Todas las anteriores"
-                    ],
-                    "correct" : 3
-                },
-                // 11
-                {
-                    "question" : "La minima unidad de almacenamiento en un sistema de computo se denomina...",
-                    "content" : [
-                        "Word",
-                        "Bit",
-                        "Ascii",
-                        "Byte"
-                    ],
-                    "correct" : 3
-                },
-                // 12
-                {
-                    "question" : "La información en los sistemas telegráficos se comunicaba por código...",
-                    "content" : [
-                        "Código Ascci",
-                        "Código Morse",
-                        "Bit",
-                        "Hertz"
-                    ],
-                    "correct" : 1
-                },
-                // 13
-                {
-                    "question" : "La representación gráfica de un algorítmo se denomina...",
-                    "content" : [
-                        "Diagrama de Flujo",
-                        "Diagrama de Venn",
-                        "Pseudocódigo",
-                        "Prueba de escritorio"
-                    ],
-                    "correct" : 0
-                },
-                // 14
-                {
-                    "question" : "¿Qué es una tabla de la verdad?",
-                    "content" : [
-                        "Es una tabla que muestra el valor de verdad de una proposició compuesta",
-                        "Es un elemento para crear tablas en la sintaxis de HTML",
-                        "Es una palabre reservada de JavaScript",
-                        "Ninguna de las anteriores"
-                    ],
-                    "correct" : 0
-                },
-                // 15
-                {
-                    "question" : "¿Qué es un arreglo de datos?",
-                    "content" : [
-                        "Es un archivo de música",
-                        "Sirve para comprimir objetos en formato ZIP",
-                        "Es un vector ó matriz donde se almacena conjuntamente una serie de elementos del mismo tipo",
-                        "Es un comando de linux usado para listar archivos en la consola"
-                    ],
-                    "correct" : 2
-                },
-            ]
-        },
-        {
-            "questions" : [
-                {
-                    "question" : "An albino gorilla usually has what color fur?",
-                    "content" : [
-                        "Brown",
-                        "Black",
-                        "White",
-                        "Golden"
-                    ],
-                    "correct" : 2
-                },
-                {
-                    "question" : "When you enter a situation without a definite plan of action, you are said to be \"playing it by\" what?",
-                    "content" : [
-                        "Fingertips",
-                        "Ear",
-                        "Nose",
-                        "Mouth"
-                    ],
-                    "correct" : 1
-                },
-                {
-                    "question" : "What is commonly known as the \"Emerald City\" in the United States?",
-                    "content" : [
-                        "Palos Verdes, CA",
-                        "Seattle, WA",
-                        "New York, NY",
-                        "Dallas, TX"
-                    ],
-                    "correct" : 1
-                },
-                {
-                    "question" : "What is the national emblem of Canada?",
-                    "content" : [
-                        "Maple Leaf",
-                        "Brown Bear",
-                        "Maple Syrup",
-                        "Waffle"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "question" : "What is the name of the largest freshwater lake in the world?",
-                    "content" : [
-                        "Lake Union",
-                        "Lake Superior",
-                        "Lake Largest",
-                        "Lake Goodwin"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "Birds",
-                        "Cell formation",
-                        "Relation between organisms and their environment",
-                        "Tissues"
-                    ],
-                    "question": "Ecology deals with"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "Earth's gravitational pull",
-                        "Moon's gravitational pull",
-                        "Centripetal force due to the earth's rotation",
-                        "Pressure of the atmosphere"
-                    ],
-                    "question": "The escape velocity of a rocket fired from the earth towards the moon is the velocity required to overcome"
-                },
-                {
-                    "correct": 3,
-                    "content": [
-                        "was a great Italian painter, sculptor and architect",
-                        "got universal fame form his masterpiece \"Mona lisa\"",
-                        "drew models of organs such as the heart, lungs and womb",
-                        "All of the above"
-                    ],
-                    "question": "Leonardo da Vinci"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "2000",
-                        "2001",
-                        "2002",
-                        "2003"
-                    ],
-                    "question": "Hamid Karzai was chosen president of Afghanistan in"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "New York, USA",
-                        "Haque (Netherlands)",
-                        "Geneva",
-                        "Paris"
-                    ],
-                    "question": "The headquarters of UN are situated at"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "friction between the earth and the bus",
-                        "friction between the passengers and the earth",
-                        "inertia of the passengers",
-                        "inertia of the bus"
-                    ],
-                    "question": "When a moving bus stops suddenly, the passenger are pushed forward because of the"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "1908 at London",
-                        "1980 at Moscow",
-                        "1936 at Berlin",
-                        "1924 at Paris"
-                    ],
-                    "question": "When and where was hockey introduced for women in Olympics?"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "increase the alkalinity of the soil",
-                        "increase the acidity of the soil",
-                        "restore nitrates to the soil",
-                        "make the soil more porous"
-                    ],
-                    "question": "Lime is sometimes applied to soil in order to"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "discovered Greenland",
-                        "travelled through China, India and other parts of Asia",
-                        "travelled round the cape of Good Hope",
-                        "discovered Canada"
-                    ],
-                    "question": "Marco Polo"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "Guruji",
-                        "Man of Peace",
-                        "Punjab Kesari",
-                        "Mahamana"
-                    ],
-                    "question": "Lal Bahadur Shastri is also known as"
                 }
             ]
         },
         {
             "questions" : [
+                // 1
                 {
-                    "question" : "Which of the following consumer goods is the Gerber Products Co. best known for?",
+                    "question" : "¿JavaScript sirve para?",
                     "content" : [
-                        "Potato chips",
-                        "Fine wines",
-                        "Chewing gum",
-                        "Baby Food"
+                        "definir el contenido de la página web",
+                        "programar el comportamiento de las páginas web",
+                        "hacer consultas en las bases de datos ",
+                        "para especificar el diseño de las paginas web"
+                    ],
+                    "correct" : 1
+                },
+                // 2
+                {
+                    "question" : "la manera correcta de agregar archivo javascript",
+                    "content" : [
+                        "link  href=./assets/js/archivo.js",
+                        "script type=text/javascript src=./assets/js/archivo.js",
+                        "script type=text/javascript id=./assets/js/archivo.js",
+                        "scrip type=text/javascript title=./assets/js/archivo.js"
+                    ],
+                    "correct" : 1
+                },
+                // 3
+                {
+                    "question" : "para que se usa la palabra clave try",
+                    "content" : [
+                        "para declarar variables",
+                        "para declarar una función",
+                        "para salir de una función",
+                        "para manejar errores en un bloque de declaraciones"
                     ],
                     "correct" : 3
                 },
+                // 4
                 {
-                    "question" : "In which of these household appliances would you find a lint screen?",
+                    "question" : "como se realiza un comentario de varias líneas en javascript",
                     "content" : [
-                        "Dishwasher",
-                        "Microwave oven",
-                        "Clothes dryer",
-                        "Trash compactor"
+                        "#este es un comentario",
+                        "/este es un comentario",
+                        "$este es un comentario",
+                        "este es un comentario"
+                    ],
+                    "correct" : 1
+                },
+                // 5
+                {
+                    "question" : "cual es el resultado del siguiente código Let numero=4 If numero >=3  ,  Numero =10; ",
+                    "content" : [
+                        "el numero es: 4",
+                        "el numero es: 3",
+                        "el numero es: 10",
+                        "el numero es: 2"
                     ],
                     "correct" : 2
                 },
+                // 6
                 {
-                    "question" : "What are the three primary colors?",
+                    "question" : "para que sirven los bucles",
                     "content" : [
-                        "Red, green, blue",
-                        "Magenta, pink, cyan",
-                        "Yellow, salmon, brown",
-                        "White, grey, black"
+                        "para ejecutar un bloque de código varias veces",
+                        "para comentar código",
+                        "para el manejo de errores en los bloques de código",
+                        "para declarar variables"
                     ],
                     "correct" : 0
                 },
+                // 7
                 {
-                    "question" : "In aviation, what does UFO stand for?",
+                    "question" : "Cuál es la forma de sumar un valor en javascript",
                     "content" : [
-                        "Unified Flying Object",
-                        "Unitary Flinging Obsession",
-                        "United Flag Opposition",
-                        "Unidentified Flying Object"
+                        "valor = valor + 1",
+                        "valor += 1",
+                        "A y B son correctas",
+                        "No se puede sumar en Javascript"
+                    ],
+                    "correct" : 2
+                },
+                // 8
+                {
+                    "question" : "en cual de las siguientes se puede almacenar varios valores en la misma variable",
+                    "content" : [
+                        "var números=1,2,3",
+                        "let números=1,2,3",
+                        "const números=[1,2,3]",
+                        "números=123"
+                    ],
+                    "correct" : 2
+                },
+                // 9
+                {
+                    "question" : "Para almacenar un Byte, usted necesita ____ interruptores electrónicos.",
+                    "content" : [
+                        "1",
+                        "2",
+                        "4",
+                        "8"
                     ],
                     "correct" : 3
-                },
-                {
-                    "question" : "In aviation, what does UFO stand for?",
-                    "content" : [
-                        "Unified Flying Object",
-                        "Unitary Flinging Obsession",
-                        "United Flag Opposition",
-                        "Unidentified Flying Object"
-                    ],
-                    "correct" : 3
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "low melting point",
-                        "high resistance",
-                        "high melting point",
-                        "low specific heat"
-                    ],
-                    "question": "For safety, the fuse wire used in the mains for household supply of electricity must be made of metal having"
-                },
-                {
-                    "correct": 3,
-                    "content": [
-                        "slowing down of economic activity over a limited period",
-                        "period during which unemployment may rise and demand and output may fall, leading to slump in trade",
-                        "period that results from accumulation of unsold goods, owing to fall in demand",
-                        "All of the above"
-                    ],
-                    "question": "Recession is"
-                },
-                {
-                    "correct": 3,
-                    "content": [
-                        "Nagaland",
-                        "Arunachal Pradesh",
-                        "Assam",
-                        "All of the above"
-                    ],
-                    "question": "Guwahati High Court is the judicature of"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "Orissa",
-                        "Tamil nadu",
-                        "Andhra Pradesh",
-                        "Kerala"
-                    ],
-                    "question": "Heavy Water Project (Talcher) and Fertilizer plant (Paradeep) are famous industries of"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "the amount of moisture it can hold decreases",
-                        "its absolute humidity decreases",
-                        "its relative humidity remains constant",
-                        "its absolute humidity increases"
-                    ],
-                    "question": "When a given amount of air is cooled"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "1789 AD",
-                        "1798 AD",
-                        "1792 AD",
-                        "1729 AD"
-                    ],
-                    "question": "When did France became Republic?"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "Group A only",
-                        "Group B only",
-                        "Group A and O",
-                        "Group AB only"
-                    ],
-                    "question": "Of the blood groups A, B, AB and O, which one is transfused into a person whose blood group is A?"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "coins",
-                        "numbers",
-                        "stamps",
-                        "space"
-                    ],
-                    "question": "Numismatics is the study of"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "a classed unique society",
-                        "a united society",
-                        "a classed society",
-                        "None of the above"
-                    ],
-                    "question": "Karl Marx's ideology advocated"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "Maharashtra",
-                        "Rajasthan",
-                        "Madhya Pradesh",
-                        "Himachal Pradesh"
-                    ],
-                    "question": "Mahabaleshwar is located in"
                 }
             ]
         },
         {
             "questions" : [
+                // 1
                 {
-                    "question" : "What kind of animal traditionally lives in a sty?",
+                    "question" : " ¿Cuál de las siguientes afirmaciones es correcta sobre Bootstrap?",
                     "content" : [
-                        "Cow",
-                        "Pig",
-                        "Fox",
-                        "Teenager"
-                    ],
-                    "correct" : 1
-                },
-                {
-                    "question" : "The EPA urges people to produce less waste by engaging in efforts to reduce, reuse and what?",
-                    "content" : [
-                        "Recycle",
-                        "Rewrap",
-                        "Repossess",
-                        "Retire"
-                    ],
-                    "correct" : 0
-                },
-                {
-                    "question" : "What is the second most common gas in the air?",
-                    "content" : [
-                        "Nitrogen",
-                        "Oxygen",
-                        "Water",
-                        "Helium"
-                    ],
-                    "correct" : 1
-                },
-                {
-                    "question" : "Which month has only 28 days (unless it's a leap year)?",
-                    "content" : [
-                        "March",
-                        "September",
-                        "June",
-                        "Feburary"
+                        " El CSS sensible de Bootstrap se ajusta a computadoras de escritorio, tabletas y móviles.",
+                        "proporciona una solución limpia y uniforme para crear una interfaz para desarrolladores.",
+                        "Contiene componentes incorporados hermosos y funcionales que son fáciles de personalizar.",
+                        "Todo lo anterior."
                     ],
                     "correct" : 3
                 },
+                // 2
                 {
-                    "correct": 1,
-                    "content": [
-                        "give",
-                        "prove",
-                        "both",
-                        "None of the above"
-                    ],
-                    "question": "Pythagoras was first to ____ the universal validity of geometrical theorem."
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "George Washington",
-                        "Bill Clinton",
-                        "George Bush",
-                        "None of the above"
-                    ],
-                    "question": "The American General who led the revolt against the British and declared American independence was"
-                },
-                {
-                    "correct": 0,
-                    "content": [
-                        "1986 at Athens",
-                        "1988 at Seoul",
-                        "1924 at St. Louis",
-                        "1908 at London"
-                    ],
-                    "question": "When and where was weightlifting introduced in Olympics?"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "Junagarh, Gujarat",
-                        "Diphu, Assam",
-                        "Kohima, Nagaland",
-                        "Gangtok, Sikkim"
-                    ],
-                    "question": "Garampani sanctuary is located at"
-                },
-                {
-                    "correct": 3,
-                    "content": [
-                        "states that no one was to be imprisoned without a writ or warrant stating the charge against him",
-                        "provided facilities to a prisoner to obtain either speedy trial or release in bail",
-                        "safeguarded the personal liberties of the people against arbitrary imprisonment by the king's orders",
-                        "All of the above"
-                    ],
-                    "question": "The Habeas Corpus Act of 1679"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "1960",
-                        "1961",
-                        "1962",
-                        "1963"
-                    ],
-                    "question": "When did Yuri Alekseyevich Gagaris of Russia, the first man to reach space, reach space?"
-                },
-                {
-                    "question" : "What are the dimensions of A4 paper?",
+                    "question" : "¿Cuál de las siguientes clases diseña una tabla como una bonita tabla básica con rayas en las filas?",
                     "content" : [
-                        "8.3\" x 11.7\"",
-                        "8.5\" x 11\"",
-                        "30cm x 50cm",
-                        "8.5\" x 14\""
+                        "table",
+                        "table-striped",
+                        "table-bordered",
+                        "table-hover"
+                    ],
+                    "correct" : 1
+                },
+                // 3
+                {
+                    "question" : "¿Cuál de las siguientes clases se debe agregar a la etiqueta de formulario para que quede horizontal?",
+                    "content" : [
+                        "horizontal",
+                        "form-horizontal",
+                        "back-horizontal",
+                        "*Ninguno de los anteriores"
+                    ],
+                    "correct" : 1
+                },
+                // 4
+                {
+                    "question" : "¿Cuál de los siguientes estilos de imagen bootstrap hace que toda la imagen sea redonda agregando un radio de borde: 500px?",
+                    "content" : [
+                        ".img-rounded",
+                        ".img-circle",
+                        ".img-thumbnail",
+                        "Ninguno de los anteriores"
+                    ],
+                    "correct" : 1
+                },
+                // 5
+                {
+                    "question" : "¿Cuál de los siguientes estilos de arranque se utiliza para agregar texto a .navbar?",
+                    "content" : [
+                        ".navbar-text",
+                        ".text",
+                        ".form-text",
+                        "Ninguno de los anteriores"
                     ],
                     "correct" : 0
                 },
+                // 6
                 {
-                    "correct": 2,
-                    "content": [
-                        "energy",
-                        "speed",
-                        "distance",
-                        "intensity"
-                    ],
-                    "question": "Light Year is related to"
-                },
-                {
-                    "correct": 2,
-                    "content": [
-                        "a type of asset that is in cash in the current account of the commercial bank",
-                        "a type of asset that is in the form of a deposit in the current account of the commercial bank",
-                        "either of these",
-                        "None of the above"
-                    ],
-                    "question": "A liquid asset is"
-                },
-                {
-                    "correct": 1,
-                    "content": [
-                        "largest airport",
-                        "highest airport",
-                        "lowest airport",
-                        "busiest airport"
-                    ],
-                    "question": "Lhasa airport at Tibet is the World's"
-                },
-                {
-                    "correct": 2,
+                    "question" : "¿Cuál de las siguientes afirmaciones es correcta sobre las insignias de Bootstrap?",
                     "content" : [
-                        "Ethiopia",
-                        "Nigeria",
-                        "Zambia",
-                        "Chad"
+                        "Las insignias son similares a las etiquetas; la principal diferencia es que las esquinas están más redondeadas.",
+                        "Las insignias se utilizan principalmente para resaltar elementos nuevos o no leídos.",
+                        "Para usar insignias, simplemente agregue <span class = insignia a los enlaces, navegadores Bootstrap y más.d",
+                        "Todo lo anterior."
                     ],
-                    "question": "Which of these African countries is situated south of the equator?"
+                    "correct" : 3
+                },
+                // 7
+                {
+                    "question" : "¿Con cuál de las siguientes formas puede agregar encabezado a un panel?",
+                    "content" : [
+                        "Use la clase .panel-header para agregar fácilmente un contenedor de encabezado a su panel.",
+                        "Use cualquier h1 - h6 con una clase .panel-title para agregar un encabezado con estilo.",
+                        "Ambos de los anteriores.",
+                        "Ninguno de los anteriores."
+                    ],
+                    "correct" : 2
+                },
+                // 8
+                {
+                    "question" : "¿Cuál de las siguientes afirmaciones es correcta sobre el atributo de datos de animación de datos del complemento de información sobre herramientas?",
+                    "content" : [
+                        "aplica una transición de atenuación CSS a la información sobre herramientas.",
+                        "inserta HTML en la información sobre herramientas. Si es falso, se utilizará el método de texto de jQuery para insertar contenido en el dominio.",
+                        "especifica cómo colocar la información sobre herramientas (es decir, arriba | abajo | izquierda | derecha | automático).",
+                        "Delegados a los objetivos especificados."
+                    ],
+                    "correct" : 0
+                },
+                // 9
+                {
+                    "question" : "¿Cuál de las siguientes afirmaciones es correcta sobre el atributo de datos de animación de datos del complemento de información sobre herramientas?",
+                    "content" : [
+                        "aplica una transición de atenuación CSS a la información sobre herramientas.",
+                        "inserta HTML en la información sobre herramientas. Si es falso, se utilizará el método de texto de jQuery para insertar contenido en el dominio.",
+                        "especifica cómo colocar la información sobre herramientas (es decir, arriba | abajo | izquierda | derecha | automático).",
+                        "Delegados a los objetivos especificados."
+                    ],
+                    "correct" : 0
+                }
+            ]
+        },
+        {
+            "questions" : [
+                // 1
+                {
+                    "question" : "Que es un repositorio",
+                    "content" : [
+                        "Es un sitio para hacer copias de seguridad",
+                        "Es un espacio para hacer codigo",
+                        "Es un motor grafico",
+                        "Es un espacio para subir codigo y compartir con otros usuarios"
+                    ],
+                    "correct" : 3
+                },
+                // 2
+                {
+                    "question" : "como se inicia un repositorio",
+                    "content" : [
+                        "git init",
+                        "git main",
+                        "git fetch",
+                        "git checkout"
+                    ],
+                    "correct" : 0
+                },
+                // 3
+                {
+                    "question" : "que plataforma esta enfocado a subir repositorios",
+                    "content" : [
+                        "Facebook",
+                        "Github",
+                        "Drive",
+                        "Mongo"
+                    ],
+                    "correct" : 1
+                },
+                // 4
+                {
+                    "question" : "Que comando existe en Git",
+                    "content" : [
+                        "git ingresar",
+                        "git insert",
+                        "git push",
+                        "git deletes"
+                    ],
+                    "correct" : 2
+                },
+                // 5
+                {
+                    "question" : "que comando se usa para crear una rama nueva",
+                    "content" : [
+                        "git branch stark",
+                        "git init stark",
+                        "git pull stark",
+                        "git checkout stark"
+                    ],
+                    "correct" : 0
+                },
+                // 6
+                {
+                    "question" : "como se llama la rama principal en git",
+                    "content" : [
+                        "start",
+                        "main",
+                        "init",
+                        "Todo los anterior."
+                    ],
+                    "correct" : 1
+                },
+                // 7
+                {
+                    "question" : "Para que sirve la funcion Git push",
+                    "content" : [
+                        "Salir del repositorio",
+                        "Iniciar el repositorio",
+                        "Subir archivos a plataforma github",
+                        "eliminar archivos"
+                    ],
+                    "correct" : 2
+                },
+                // 8
+                {
+                    "question" : "Para que sirve la funcion Git init",
+                    "content" : [
+                        "Salir del repositorio",
+                        "Iniciar el repositorio",
+                        "Subir archivos a plataforma github",
+                        "eliminar archivos"
+                    ],
+                    "correct" : 1
+                },
+                // 9
+                {
+                    "question" : "¿Cuál de las siguientes afirmaciones es correcta sobre el atributo de datos de animación de datos del complemento de información sobre herramientas?",
+                    "content" : [
+                        "aplica una transición de atenuación CSS a la información sobre herramientas.",
+                        "inserta HTML en la información sobre herramientas. Si es falso, se utilizará el método de texto de jQuery para insertar contenido en el dominio.",
+                        "especifica cómo colocar la información sobre herramientas (es decir, arriba | abajo | izquierda | derecha | automático).",
+                        "Delegados a los objetivos especificados."
+                    ],
+                    "correct" : 0
                 }
             ]
         }
